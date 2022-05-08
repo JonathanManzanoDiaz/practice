@@ -8,4 +8,4 @@ Repositorio de CV PORTAFOLIO twitter: @jmanzdi
 
 - [Landing-Page](https://jonathanmanzanodiaz.github.io/practice/cv-portfolio)
 
-- [100DaysOfCSS](https://jonathanmanzanodiaz.github.io/practice/100DaysCSS/Day1)
+- [100DaysOfCSS](https://jonathanmanzanodiaz.github.io/practice/100DaysCSS)
