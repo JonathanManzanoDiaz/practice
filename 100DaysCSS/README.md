@@ -1,6 +1,6 @@
 # 100 DAYS OF CSS
 
-Challenge de 100 Days Of CSS twitter: @jmanzdi
+Reto de 100 Days Of CSS twitter: @jmanzdi
 
 ## DAYS
 
