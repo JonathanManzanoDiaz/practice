@@ -1,9 +1,9 @@
 
 
-# TALLER DE MAQUETACIÓN
+# 100 DAYS OF CSS
 
-Repositorio de CV PORTAFOLIO twitter: @jmanzdi
+Challenge de 100 Days Of CSS twitter: @jmanzdi
 
-## Proyectos
+## DAYS
 
 - [DAY-1](https://jonathanmanzanodiaz.github.io/practice/100DaysCSS/Day1)
