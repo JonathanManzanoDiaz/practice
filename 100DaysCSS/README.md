@@ -1,8 +1,10 @@
-# TALLER DE CSS
+# 100 DAYS OF CSS
 
-TALLER DE PRACTICA CSS twitter: @jmanzdi
+Challenge de 100 Days Of CSS twitter: @jmanzdi
 
-## 100DAYS OF CSS
+## DAYS
 
 - [DAY-1](https://jonathanmanzanodiaz.github.io/practice/100DaysCSS/Day1)
+
 - [DAY-2](https://jonathanmanzanodiaz.github.io/practice/100DaysCSS/Day2)
+
