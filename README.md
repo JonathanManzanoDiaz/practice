@@ -1,8 +1,8 @@
 
 
-# TALLER DE MAQUETACIÓN
+# PRACTICAS
 
-Repositorio de CV PORTAFOLIO twitter: @jmanzdi
+Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 ## Proyectos
 
