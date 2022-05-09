@@ -1,8 +1,8 @@
 
 
-# TALLER DE MAQUETACIÓN
+# TALLER DE 100DAYSOFCSS
 
-Repositorio de CV PORTAFOLIO twitter: @jmanzdi
+PRACTICA DE 100DAYSOFCSS twitter: @jmanzdi
 
 ## Proyectos
 
