@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.contact-box {
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    width: 37.5rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 2.5rem 1.6rem;
+    margin: 50px auto;
+}
+
+label {
+    margin-top: .8rem;
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+.radio {
+    width: auto;
+}
+.findus {
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+}
+
+.radio label {
+    margin-left: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.checkbox {
+    margin-top: 1rem;
+}
+
+.checkbox label {
+    margin-left: 1rem;
+
+}
+
+.buttons {
+    margin-top: 1rem;
+    text-align: right;
+}
+.btn {
+    padding: .6rem 1.5rem;
+    border-radius: 8px;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+}
