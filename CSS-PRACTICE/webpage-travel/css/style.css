@@ -1,0 +1,98 @@
+#hero {
+    height: 800px;
+    background-image: url("/assets/hero-image-home.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero::before {
+    
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(119, 139, 224, 0.4);
+    box-shadow: 2px 4px 8px black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    color: yellow;
+    text-transform: uppercase;
+}
+#hero-content h1 {
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+}
+
+#hero-content p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -15px;
+    margin-bottom: 32px
+}
+
+#hero-content a {
+    background-color: rgb(255, 251, 0);
+    padding: 12px 24px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+
+/* HIGHLIGHTS */
+
+#destinations {
+    display: flex;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.destination {
+    list-style: none;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.destination img {
+    width: 100%;
+    margin: 0 auto;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 4px black;
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20 auto;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+}
+
+.social-media {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    width: 120px;
+}
+
+
+footer svg {
+    width: 200px;
+    height: 150px;
+}
