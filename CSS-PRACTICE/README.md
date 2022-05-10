@@ -12,6 +12,6 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 - [WEBTRAVEL ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/webpage-travel)
 
-- [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription)
+- [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/tree/gh-pages/CSS-PRACTICE/monthly-subscription)
 
 - [CONTACT FORM ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/contact-form)
