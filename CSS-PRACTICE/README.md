@@ -6,12 +6,12 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 ## Proyectos
 
-- [Landing-Page-PORTFOLIO](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/cv-portfolio)
+- [LANDING PAGE PORTFOLIO](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/cv-portfolio)
 
-- [WEBFOOD-ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/webpage-food)
+- [WEBFOOD ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/webpage-food)
 
-- [WEBTRAVEL-ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/webpage-travel)
+- [WEBTRAVEL ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/webpage-travel)
 
-- [SUBSCRIPTION-MONTHLY-ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription)
+- [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription)
 
-- [CONTACT FORM-ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/contact-form)
+- [CONTACT FORM ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/contact-form)
