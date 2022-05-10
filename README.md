@@ -8,4 +8,4 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 - [Landing-Page](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/cv-portfolio)
 
-- [100DaysOfCSS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/100DaysCSS/README.md)
+- [100DaysOfCSS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/100DaysCSS/)
