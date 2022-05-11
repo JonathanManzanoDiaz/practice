@@ -18,4 +18,4 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 - [CSS BATTLE(https://cssbattle.dev)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/css-battle)
 
-- [FRONTEND MENTOR)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/frontend-mentor)
+- [FRONTEND MENTOR](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/frontend-mentor)
