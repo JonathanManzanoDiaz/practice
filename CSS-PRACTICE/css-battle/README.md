@@ -2,7 +2,7 @@
 
 # PRACTICAS
 
-Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
+CSS BATTLE de Jonathan Manzano twitter: @jmanzdi
 
 ## Proyectos
 
