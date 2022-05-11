@@ -15,3 +15,5 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 - [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription/)
 
 - [CONTACT FORM ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/contact-form)
+
+- [CSS BATTLE(https://cssbattle.dev)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/css-battle)

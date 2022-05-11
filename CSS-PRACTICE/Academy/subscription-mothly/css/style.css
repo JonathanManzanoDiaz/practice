@@ -1,0 +1,91 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,700;1,500&display=swap');
+/* GOOGLE FONT */
+
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+
+:root {
+    --color: skyblue;
+    --color-a: rgb(147, 157, 243);
+}
+
+body {
+    font-family: 'Krub', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-a);
+}
+/* RESET */
+
+.card-container {
+    background-color: white;
+    margin: 50px auto;
+    width: 300px;
+    height: 480px;
+    box-shadow: 2px 2px 4px rgb(0,0,0,2);
+    border-radius: 3px;
+}
+.card-container h1 {
+    padding: 1.2rem 2.5rem 0rem 2.5rem;
+
+}
+
+.description-month {
+    margin-top: 8px;
+    padding: 0rem 2.5rem 0rem 2.5rem;
+    font-size: 15px;
+}
+
+.price {
+    margin-top: 1.65rem;
+    font-weight: 700;
+    font-size: 2.7rem;
+    background-color: var(--color);
+    padding: 0 auto;
+    text-align: center;
+}
+
+.price-description {
+    padding: 0rem 2.5rem 0rem 2.5rem;
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.options {
+    padding: 0rem 2.5rem 0rem 2.5rem;
+    margin-top: 0.7rem;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 1.8rem;
+}
+
+.options p {
+    margin-top: 0.65rem;
+    font-weight: 600;
+}
+
+.join {
+    text-align: center;
+    margin-top: 2.2rem;
+    border: 1px solid skyblue;
+    margin: 2rem 2rem;
+    padding: 0.5rem 0rem;
+    font-weight: 600;
+}
+.join a:hover {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: black;
+}
