@@ -8,7 +8,7 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 - [LANDING PAGE PORTFOLIO](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/cv-portfolio)
 
-- [WEBLANDING BUSINESS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/weblanding1)
+- [WEBLANDING BUSINESS(IN CONSTRUCTION - MOBILE ONLY)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/weblanding1)
 
 - [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription/)
 
