@@ -325,7 +325,7 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .servi {
+  #servi {
     padding: 40px;
   }
   #numbers {
@@ -438,15 +438,16 @@ body {
   padding: 2rem;
 }
 
-.servi {
+#servi {
+  margin-top: 4rem;
   text-align: center;
 }
 
-.servi span {
+#servi span {
   font-size: 1.2rem;
 }
 
-.servi h2 {
+#servi h2 {
   text-align: center;
 }
 
