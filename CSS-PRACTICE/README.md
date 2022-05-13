@@ -6,7 +6,7 @@ Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
 
 ## PROYECTO SASS
 
-- [SASS PROJECTS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/README.md)
+- [SASS PROJECTS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS)
 
 ## Proyectos
 
