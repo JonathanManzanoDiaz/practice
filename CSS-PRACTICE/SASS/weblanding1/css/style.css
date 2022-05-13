@@ -325,9 +325,6 @@ h2 {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #servi {
-    padding: 40px;
-  }
   #numbers {
     display: -ms-grid;
     display: grid;
