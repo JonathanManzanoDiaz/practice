@@ -2,7 +2,7 @@
 
 # PRACTICAS
 
-Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
+PRACTICAS CSS de Jonathan Manzano twitter: @jmanzdi
 
 ## PROYECTO SASS
 
