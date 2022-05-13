@@ -1,0 +1,74 @@
+@keyframes carousel-slide {
+    0% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-75%);
+
+    }
+}
+
+.cart {
+    margin:50px auto;
+}
+
+.carousel {
+    text-align: center;
+    box-shadow: 1px 1px 1px 4px black;
+    overflow-x: hidden;
+    border-radius: 10px;
+    background-color: var(--color_23);
+}
+
+.carousel .slide {
+    width: 20rem;
+
+}
+
+.carousel .slides {
+    padding-left: 0;
+    width: 400%;
+    display: flex;
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
+    overflow-x: hidden;
+    animation: carousel-slide 6s ease-in-out 3s;
+}
+
+.carousel label {
+    border: medium solid var(--gray-dark-color);
+    border-radius: 50%;
+    margin: 0 0.25rem;
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+#slide-1:checked~.slides {
+    transform: translateX(0%);
+}
+
+#slide-2:checked~.slides {
+    transform: translateX(-25%);
+}
+
+#slide-3:checked~.slides {
+    transform: translateX(-50%);
+}
+
+
+#slide-1:checked~.slides-nav label#dot-1,
+#slide-2:checked~.slides-nav label#dot-2,
+#slide-3:checked~.slides-nav label#dot-3,
+#slide-4:checked~.slides-nav label#dot-4 {
+    background-color: var(--gray-dark-color);
+}
