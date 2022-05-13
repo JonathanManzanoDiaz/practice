@@ -6,4 +6,4 @@ PRACTICAS de SASS Jonathan Manzano twitter: @jmanzdi
 
 ## PROYECTO SASS
 
-- [WEBLANDING BUSINESS - SASS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/weblanding1)
+- [WEBLANDING BUSINESS - SASS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS)
