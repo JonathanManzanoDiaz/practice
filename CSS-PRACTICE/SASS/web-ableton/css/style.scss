@@ -1,0 +1,272 @@
+@import 'menu-h';
+@import 'variables';
+
+body {
+    @include reset;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.firstImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/firstImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+    a {
+        color: white;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    h3 {
+        padding: 2rem 2rem 0 2rem;
+        color: yellow;
+    }
+}
+
+.secondImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/secondImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+    a {
+        color: white;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    h3 {
+        padding: 2rem 2rem 0 2rem;
+        color: yellow;
+    }
+}
+
+.thirdImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/secondImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+    a {
+        color: white;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    h3 {
+        padding: 2rem 2rem 0 2rem;
+        color: yellow;
+    }
+}
+
+.divPost1 {
+    background-image: url("/assets/firstImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.divPost2 {
+    background-image: url("/assets/secondImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.divPost3 {
+
+    background-image: url("/assets/thirdImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+.firstPost {
+    padding: .5rem 2rem;
+
+    a {
+        color: skyblue;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        padding: 0.5rem 1rem 0 1rem;
+    }
+}
+
+.firstTut {
+    padding: 1rem 2rem;
+
+    a {
+        color: skyblue;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        font-size: 1.4rem;
+
+    }
+
+    h3 {
+        padding: 0.5rem 1rem 0 1rem;
+    }
+
+}
+
+.firstVideo {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    a {
+        color: skyblue;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        font-size: 1.4rem;
+
+    }
+
+    h3 {
+        padding: 0.5rem 1rem 0 1rem;
+    }
+}
+
+.divVideo1,
+.divVideo2,
+.divVideo3 {
+    video {
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: center
+    }
+}
+
+.divLoop1 {
+    background-image: url("/assets/firstImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.divLoop2 {
+    background-image: url("/assets/secondImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.divLoop3 {
+    background-image: url("/assets/thirdImage.jpg");
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+.firstLoop {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+
+    a {
+        color: skyblue;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: blue;
+        font-size: 1.4rem;
+        text-decoration: line-through;
+    }
+
+    h3 {
+        padding: 0.5rem 1rem 0 1rem;
+    }
+}
+
+.contact {
+    text-align: center;
+    padding: 0.5rem 1rem 0 1rem;
+
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    h5 {
+        margin-top: -1rem;
+        font-size: 1rem;
+    }
+    p {
+        
+        margin-top: -1rem;
+        font-size: 1.1rem;
+    }
+    
+}
+.formulario {
+    display: flex;
+    .btn {
+        font-weight: bold;
+        font-size: inherit;
+        color: #fff !important;
+        background: blue;
+        border: 0;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0;
+        padding: 0.5em 1rem;
+    }
+    input {
+    width: 100%;
+    margin: 0;
+    padding: 0.4em 3rem;
+    background: transparent;
+    background-color: #eee;
+    border: 0;
+    user-select: none;
+    font-weight: normal;
+    border-radius: 0;
+    }
+}
+
+.social-media {
+    margin-top: 1.5rem;
+    justify-content: center;
+    h4 {
+        color: blue;
+        font-size: 1.5rem;
+    }
+}
+footer {
+    text-align: center;
+    margin: 1rem;
+}

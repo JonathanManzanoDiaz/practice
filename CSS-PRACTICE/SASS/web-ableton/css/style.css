@@ -1,0 +1,381 @@
+.none {
+  display: none;
+}
+
+/* MENU */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  background-color: white;
+}
+
+.menu-btn {
+  outline: thin solid var(--first-color);
+  border: 0;
+  cursor: pointer;
+  background-color: var(--second-color);
+}
+
+.menu-btn svg {
+  fill: var(--first-color);
+}
+
+.menu {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.logo a {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--color_23);
+  text-decoration: none;
+}
+
+.menu.is-active {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: white;
+  margin-top: 3rem;
+}
+
+.menu a {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: var(--color_23);
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--white-color);
+  background-color: var(--first-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-btn {
+    display: none;
+  }
+  .menu {
+    position: static;
+    width: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .menu a {
+    padding: 10px 1rem;
+  }
+  .menu a:last-child {
+    padding-right: 0;
+  }
+  .menu a:hover {
+    background-color: transparent;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.firstImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/assets/firstImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/firstImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.firstImage a {
+  color: white;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.firstImage h3 {
+  padding: 2rem 2rem 0 2rem;
+  color: yellow;
+}
+
+.secondImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/assets/secondImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/secondImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.secondImage a {
+  color: white;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.secondImage h3 {
+  padding: 2rem 2rem 0 2rem;
+  color: yellow;
+}
+
+.thirdImage {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("/assets/secondImage.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("/assets/secondImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.thirdImage a {
+  color: white;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.thirdImage h3 {
+  padding: 2rem 2rem 0 2rem;
+  color: yellow;
+}
+
+.divPost1 {
+  background-image: url("/assets/firstImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divPost2 {
+  background-image: url("/assets/secondImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divPost3 {
+  background-image: url("/assets/thirdImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.firstPost {
+  padding: .5rem 2rem;
+}
+
+.firstPost a {
+  color: skyblue;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.firstPost a:hover {
+  color: blue;
+  font-size: 1.4rem;
+}
+
+.firstPost h3 {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.firstTut {
+  padding: 1rem 2rem;
+}
+
+.firstTut a {
+  color: skyblue;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.firstTut a:hover {
+  color: blue;
+  font-size: 1.4rem;
+}
+
+.firstTut h3 {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.firstVideo {
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.firstVideo a {
+  color: skyblue;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.firstVideo a:hover {
+  color: blue;
+  font-size: 1.4rem;
+}
+
+.firstVideo h3 {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.divVideo1 video,
+.divVideo2 video,
+.divVideo3 video {
+  width: 100%;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.divLoop1 {
+  background-image: url("/assets/firstImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divLoop2 {
+  background-image: url("/assets/secondImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divLoop3 {
+  background-image: url("/assets/thirdImage.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.firstLoop {
+  padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.firstLoop a {
+  color: skyblue;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.firstLoop a:hover {
+  color: blue;
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+
+.firstLoop h3 {
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.contact {
+  text-align: center;
+  padding: 0.5rem 1rem 0 1rem;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.contact h5 {
+  margin-top: -1rem;
+  font-size: 1rem;
+}
+
+.contact p {
+  margin-top: -1rem;
+  font-size: 1.1rem;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.formulario .btn {
+  font-weight: bold;
+  font-size: inherit;
+  color: #fff !important;
+  background: blue;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 0.5em 1rem;
+}
+
+.formulario input {
+  width: 100%;
+  margin: 0;
+  padding: 0.4em 3rem;
+  background: transparent;
+  background-color: #eee;
+  border: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: normal;
+  border-radius: 0;
+}
+
+.social-media {
+  margin-top: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media h4 {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  margin: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
