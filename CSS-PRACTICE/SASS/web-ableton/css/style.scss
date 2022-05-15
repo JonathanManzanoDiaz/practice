@@ -20,7 +20,7 @@ body {
 .firstImage {
     background-image: url("/assets/firstImage.jpg");
     background-position: center;
-    width: 105%;
+    width: 90%;
     height: 40vh;
     background-size: cover;
 
@@ -430,6 +430,7 @@ body {
 }
 
 .education {
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;    
     a {
