@@ -192,7 +192,7 @@ body {
 }
 
 .divPost1 {
-  background-image: url("/assets/firstImage.jpg");
+  background-image: url("/assets/postImage1.jpg");
   background-position: center;
   width: 100%;
   height: 40vh;
@@ -200,7 +200,7 @@ body {
 }
 
 .divPost2 {
-  background-image: url("/assets/secondImage.jpg");
+  background-image: url("/assets/postImage2.jpg");
   background-position: center;
   width: 100%;
   height: 40vh;
@@ -208,7 +208,7 @@ body {
 }
 
 .divPost3 {
-  background-image: url("/assets/thirdImage.jpg");
+  background-image: url("/assets/postImage3.jpg");
   background-position: center;
   width: 100%;
   height: 40vh;
@@ -339,6 +339,30 @@ body {
 
 .firstTut3 h3 {
   padding: 0.5rem 1rem 0 1rem;
+}
+
+.divTut1 {
+  background-image: url("/assets/violin.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divTut2 {
+  background-image: url("/assets/piano.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+}
+
+.divTut3 {
+  background-image: url("/assets/cello.jpg");
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
 }
 
 .firstVideo {
