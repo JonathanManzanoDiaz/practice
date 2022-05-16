@@ -9,3 +9,5 @@ PRACTICAS de SASS Jonathan Manzano twitter: @jmanzdi
 - [WEBLANDING BUSINESS - SASS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/weblanding1)
 
 - [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/web-ableton)
+
+- [WEB ABSTRACT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/web-abstract)
