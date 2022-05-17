@@ -6,7 +6,7 @@ PRACTICAS de SASS Jonathan Manzano twitter: @jmanzdi
 
 ## PROYECTO SASS
 
-- [WEBLANDING BUSINESS - SASS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/1-weblanding)
+- [WEBLANDING BUSINESS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/1-weblanding)
 
 - [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/2-web-ableton)
 
