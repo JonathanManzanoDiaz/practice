@@ -22,7 +22,6 @@
 
 .menu-btn svg {
     fill: white;
-    border: 1px solid blue;
     padding: .8em 1rem;
 
 }
@@ -79,7 +78,7 @@
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .menu-btn {
         display: none;
     }
