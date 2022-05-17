@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import 'variables';
+
+h1, h2, h3, h4, h5, h6, p {
+    @include reset;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .center {
+    height: 100vh;
+    scroll-behavior: smooth;
+  }
+
+body {
+    @include reset;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    padding-top: 1em;
+    position: absolute;    
+    left: 15px;
+    a {        
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: bold;
+    }
+    a:hover {
+        text-decoration: underline blue;
+        color: #fffeff;
+    }
+}
+
+#center5 {
+    
+    background-color: #00c1b5;
+    text-align: center;
+    height: 100vh;
+    .issue5 {
+        .issue-p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .buy {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        .stores {
+            font-weight: bold;
+            margin-top: 1rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.cover {
+    padding-top: 7rem;
+
+    img {
+        width: 80%;
+        max-width: 420px;
+        height: auto;
+    }
+}
+
+#center4 {
+        
+    background-color: #ff651a;
+    text-align: center;
+    height: 100vh;
+    .issue5 {
+        .issue-p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .buy {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+        .stores {
+            font-weight: bold;
+            margin-top: 1.5rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+
+#center3 {
+    
+    background-color: #ffbe00;
+    text-align: center;
+    height: 100vh;
+    .issue5 {
+        .issue-p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .buy {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        .stores {
+            font-weight: bold;
+            margin-top: 1rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+#center2 {
+        
+    background-color: #1d3fbb;
+    text-align: center;
+    height: 100vh;
+    .issue5 {
+        .issue-p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .buy {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+        .stores {
+            font-weight: bold;
+            margin-top: 1.5rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+#center1 {
+        
+    background-color: #e30512;
+    text-align: center;
+    
+    .issue1 {
+        padding: 0 2rem;
+        .issue-p {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        .buy {
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+            margin-top: 1.5rem;
+        }
+        
+        .stores-s {
+            font-weight: bold;
+            margin-top: 1.5rem;
+            font-size: .9rem;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+.footer {
+    text-align: center;
+    p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding-top: 1rem;
+    }
+    .copyright {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .mailto {
+        margin-top: 5rem;
+    }
+    a {
+        color: white;
+    
+    }
+    a:hover {
+        text-decoration: underline blue;
+        color: #bf4eeb;
+    }
+}
+
+
+
+.issues {
+    display: none;
+}
+
+footer {
+    background-color: #e30512;
+    padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .issues {
+        display: block;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        text-decoration: underline;
+        a {
+        color: white;
+        font-size: 150%;
+        }   
+        a:hover {
+            text-decoration: underline blue;
+            color: #bf4eeb;
+        }
+        .div-issue {
+            margin-top: .5rem;
+        }
+    } 
+      .cover {
+        img {
+            width: 100%;
+            max-width: 450px;
+            height: auto;
+        }
+    }
+    .center {
+        scroll-snap-align: center;
+    }
+    .logo {
+        position: fixed;
+        top: 0;
+        left: 15px;
+        a {
+            font-size: 200%;
+        }
+    }
+ 
+    .mailto {
+        position: fixed;
+        top: -60px;
+        right: 15px;
+        a {
+        font-size: 125%
+
+        }
+    }
+    footer {
+        position: fixed;
+        background-color: transparent;
+        bottom: 15px;
+        left: 15px;
+    }
+    
+}

@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+
+.center {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  padding-top: 1em;
+  position: absolute;
+  left: 15px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: black;
+  font-weight: bold;
+}
+
+.logo a:hover {
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+  color: #fffeff;
+}
+
+#center5 {
+  background-color: #00c1b5;
+  text-align: center;
+  height: 100vh;
+}
+
+#center5 .issue5 .issue-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#center5 .issue5 .buy {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#center5 .issue5 .stores {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#center5 .issue5 .stores a {
+  text-decoration: none;
+  color: white;
+}
+
+.cover {
+  padding-top: 7rem;
+}
+
+.cover img {
+  width: 80%;
+  max-width: 420px;
+  height: auto;
+}
+
+#center4 {
+  background-color: #ff651a;
+  text-align: center;
+  height: 100vh;
+}
+
+#center4 .issue5 .issue-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#center4 .issue5 .buy {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+#center4 .issue5 .stores {
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+#center4 .issue5 .stores a {
+  text-decoration: none;
+  color: white;
+}
+
+#center3 {
+  background-color: #ffbe00;
+  text-align: center;
+  height: 100vh;
+}
+
+#center3 .issue5 .issue-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#center3 .issue5 .buy {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#center3 .issue5 .stores {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+#center3 .issue5 .stores a {
+  text-decoration: none;
+  color: white;
+}
+
+#center2 {
+  background-color: #1d3fbb;
+  text-align: center;
+  height: 100vh;
+}
+
+#center2 .issue5 .issue-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#center2 .issue5 .buy {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+#center2 .issue5 .stores {
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+#center2 .issue5 .stores a {
+  text-decoration: none;
+  color: white;
+}
+
+#center1 {
+  background-color: #e30512;
+  text-align: center;
+}
+
+#center1 .issue1 {
+  padding: 0 2rem;
+}
+
+#center1 .issue1 .issue-p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#center1 .issue1 .buy {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+#center1 .issue1 .stores-s {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  font-size: .9rem;
+}
+
+#center1 .issue1 .stores-s a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.footer .copyright {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer .mailto {
+  margin-top: 5rem;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer a:hover {
+  -webkit-text-decoration: underline blue;
+          text-decoration: underline blue;
+  color: #bf4eeb;
+}
+
+.issues {
+  display: none;
+}
+
+footer {
+  background-color: #e30512;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .issues {
+    display: block;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: underline;
+  }
+  .issues a {
+    color: white;
+    font-size: 150%;
+  }
+  .issues a:hover {
+    -webkit-text-decoration: underline blue;
+            text-decoration: underline blue;
+    color: #bf4eeb;
+  }
+  .issues .div-issue {
+    margin-top: .5rem;
+  }
+  .cover img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+  .center {
+    scroll-snap-align: center;
+  }
+  .logo {
+    position: fixed;
+    top: 0;
+    left: 15px;
+  }
+  .logo a {
+    font-size: 200%;
+  }
+  .mailto {
+    position: fixed;
+    top: -60px;
+    right: 15px;
+  }
+  .mailto a {
+    font-size: 125%;
+  }
+  footer {
+    position: fixed;
+    background-color: transparent;
+    bottom: 15px;
+    left: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
