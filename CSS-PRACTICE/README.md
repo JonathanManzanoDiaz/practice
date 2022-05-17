@@ -12,9 +12,7 @@ PRACTICAS CSS de Jonathan Manzano twitter: @jmanzdi
 
 - [LANDING PAGE PORTFOLIO](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/cv-portfolio)
 
-- [SUBSCRIPTION MONTHLY ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription/)
-
-- [CONTACT FORM ACADEMY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/contact-form)
+- [SUBSCRIPTION MONTHLY](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/monthly-subscription/)
 
 - [CSS BATTLE(https://cssbattle.dev)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/css-battle)
 
