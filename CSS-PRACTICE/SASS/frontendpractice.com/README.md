@@ -16,6 +16,6 @@ PRACTICAS de SASS de frontendpractice.com Jonathan Manzano twitter: @jmanzdi
 
 - [BONSAI](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/5-bonsai)
 
-- [BONSAI](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/6-instrument)
+- [INSTRUMENT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/6-instrument)
 
 
