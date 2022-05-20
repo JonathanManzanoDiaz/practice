@@ -8,9 +8,9 @@ PRACTICAS de SASS de frontendpractice.com Jonathan Manzano twitter: @jmanzdi
 
 - [WEBLANDING BUSINESS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/1-weblanding)
 
-- [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/2-web-ableton)
+- [WEB ABSTRACT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/2-web-abstract)
 
-- [WEB ABSTRACT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/3-web-abstract)
+- [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/3-web-ableton)
 
 - [BACKSTAGE TALKS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/4-backstage-talks)
 
