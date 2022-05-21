@@ -18,4 +18,6 @@ PRACTICAS de SASS de frontendpractice.com Jonathan Manzano twitter: @jmanzdi
 
 - [BONSAI](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/6-instrument)
 
+- [LOBE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/7-lobe)
+
 
