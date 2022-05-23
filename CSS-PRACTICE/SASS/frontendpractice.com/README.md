@@ -20,4 +20,7 @@ PRACTICAS de SASS de frontendpractice.com Jonathan Manzano twitter: @jmanzdi
 
 - [LOBE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/7-lobe)
 
+- [PULSE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/8-pulse)
+
+
 
