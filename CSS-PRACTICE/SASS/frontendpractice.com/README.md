@@ -6,21 +6,22 @@ PRACTICAS de SASS de frontendpractice.com Jonathan Manzano twitter: @jmanzdi
 
 ## PROYECTO SASS
 
-- [WEBLANDING BUSINESS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/1-weblanding)
+- [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/1-ableton)
 
-- [WEB ABSTRACT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/2-web-abstract)
+- [WEB ABSTRACT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/2-abstract)
 
-- [WEB ABLETON](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/3-web-ableton)
+- [BACKSTAGE TALKS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/3-backstage-talks)
 
-- [BACKSTAGE TALKS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/4-backstage-talks)
+- [BONSAI](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/4-bonsai)
 
-- [BONSAI](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/5-bonsai)
+- [INSTRUMENT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/5-instrument)
 
-- [INSTRUMENT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/6-instrument)
+- [LOBE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/6-lobe)
 
-- [LOBE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/7-lobe)
+- [PULSE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/7-pulse)
 
-- [PULSE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/8-pulse)
+- [RED SQUARE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/frontendpractice.com/8-red-square)
+
 
 
 

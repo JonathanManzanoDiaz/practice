@@ -1,0 +1,589 @@
+@import 'variables';
+@import 'navbar';
+
+body,
+html {
+    background-color: black;
+    @include reset;
+}
+
+
+.menu a {
+    color: white
+}
+
+
+.logo {
+    span {
+        color: orange;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.btn {
+    font-size: .9em;
+    background-color: white;
+    border-radius: 30px;
+    padding: .5em .5em .5em 1em;
+    align-items: center;
+    color: #000;
+    display: flex;
+    border: 0;
+
+    svg {
+        width: 20px;
+        height: 15px;
+        margin-left: .2em;
+    }
+}
+
+#hero,
+#image {
+    display: none;
+}
+
+#video {
+    text-align: center;
+    margin-top: 2em;
+
+    video {
+        width: 85%;
+
+    }
+}
+
+#parraf {
+    color: white;
+
+    h2 {
+        font-size: 1.2em;
+        padding: 0 1em;
+        text-align: left;
+    }
+}
+
+#img-par {
+    text-align: center;
+    margin-top: 2em;
+    color: white;
+
+    img {
+        width: 85%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    button {
+        margin-left: 1.2em;
+
+    }
+}
+
+
+#img-par_reverse {
+    margin-top: 5em;
+    text-align: center;
+    color: white;
+
+    img {
+        width: 85%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    button {
+        margin-top: 1em;
+        margin-left: 1.2em;
+
+    }
+}
+
+#img-par2 {
+    margin-top: 5em;
+    text-align: center;
+    color: white;
+
+    img {
+        width: 85%;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    button {
+        margin-top: 1em;
+        margin-left: 1.2em;
+
+    }
+}
+
+#paf-btn {
+    margin-top: 5em;
+    color: white;
+
+    h3 {
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    button {
+        margin: 0 auto;
+
+    }
+}
+
+#images {
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+
+    img {
+        width: 85%;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+    p {
+        font-size: 1.2em;
+        padding: 0 1em;
+        text-align: left;
+    }
+
+}
+
+#social {
+    text-align: center;
+    margin: 5em auto 0 auto;
+
+
+    .insta {
+        width: 64px;
+        padding: 1em;
+        filter: invert(1);
+    }
+
+    .twitter {
+        width: 64px;
+        padding: 1em;
+        filter: invert(1);
+    }
+
+    .linkedin {
+        width: 64px;
+        padding: 1em;
+        filter: invert(1);
+    }
+}
+
+#paf-btn {
+    padding: 0 1em 0 1em;
+}
+
+.izq-footer {
+    margin-top: 3em;
+    font-weight: bold;
+
+    .izq_footer1 {
+        span {
+            color: orange;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        a {
+            padding: 1.5em;
+            color: white;
+
+        }
+    }
+
+    .izq_footer2 {
+
+        display: flex;
+        flex-direction: column;
+
+        a {
+            padding: 1.5em;
+            color: white;
+
+        }
+    }
+
+    .izq_footer2:last-child {
+        padding: 0 0 2em 0;
+    }
+
+}
+
+#der-footer {
+    display: none;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 48em) {
+
+    #hero {
+        padding: 3em;
+        color: white;
+        display: inline-block;
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            padding: 0em 1em;
+            font-size: 1.3em;
+        }
+
+        .btn {
+            font-size: 1em;
+            margin: 0 auto;
+        }
+
+    }
+
+    #parraf {
+        color: white;
+
+        h2 {
+            font-size: 1.5em;
+            margin: 3em;
+            text-align: center;
+        }
+    }
+
+    #img-par {
+        width: 90%;
+        margin: 3em auto;
+
+
+        h3 {
+            font-size: 1.5em;
+            margin: 3em 2em;
+            text-align: center;
+        }
+
+        .btn {
+            margin: 0 auto;
+            font-size: 1em;
+        }
+    }
+
+    #img-par_reverse {
+        width: 90%;
+        margin: 3em auto;
+
+
+        h3 {
+            font-size: 1.5em;
+            margin: 3em 2em;
+            text-align: center;
+        }
+
+        .btn {
+            margin: 0 auto;
+            font-size: 1em;
+        }
+    }
+
+    #img-par2 {
+        width: 90%;
+        margin: 3em auto;
+
+        h3 {
+            font-size: 1.5em;
+            margin: 3em 2em;
+            text-align: center;
+        }
+
+        .btn {
+            margin: 0 auto;
+            font-size: 1em;
+        }
+    }
+
+    #paf-btn {
+        margin-top: 10em;
+
+        h3 {
+            font-size: 1.5em;
+            margin: 3em 2em;
+            text-align: center;
+        }
+    }
+
+    #images {
+        width: 90%;
+        margin: 10em auto 0 auto;
+
+        h3 {
+            font-size: 1.5em;
+            margin: 2em 2em 0 2em;
+            text-align: center;
+        }
+
+        .texts {
+            display: flex;
+            align-items: center;
+        }
+
+    }
+
+    #paf-btn {
+        margin: 7em 0 0 0;
+    }
+
+    .izq-footer {
+        margin-top: 7em;
+        display: flex;
+        flex-direction: row;
+
+        .izq_footer1 {
+            margin-left: 3em;
+        }
+
+        .izq_footer2 {
+            margin-left: 7em;
+        }
+    }
+
+    .copy {
+        margin: 2em;
+    }
+}
+
+
+
+@media (min-width: 64em) {
+
+    #hero {
+        color: white;
+
+        h1 {
+            font-size: 700%;
+            text-align: left;
+            padding-left: .25em;
+        }
+
+        p {
+            margin-top: -1em;
+            text-align: left;
+            width: 50%;
+            font-size: 200%;
+        }
+
+        .btn {
+            margin: 3em 2em;
+        }
+    }
+
+    #video {
+        margin-top: 5em;
+    }
+
+    #parraf {
+        color: white;
+
+        h2 {
+            font-size: 2.5em;
+            padding: 2em 0;
+            text-align: center;
+            width: 70%;
+            margin: 5em auto;
+        }
+    }
+
+    #img-par {
+        .img-c {
+            display: flex;
+            align-items: center;
+        }
+
+        h3 {
+            margin: 2em;
+            margin-top: -.2em;
+            padding: 0;
+            font-size: 200%;
+            text-align: left;
+        }
+        .btn  {
+            margin-top: -1.5em;
+            margin-left: 4em;
+        }
+    }
+    #img-par_reverse {
+        width: 90%;
+        margin: 3em auto;
+        .img-c {
+        margin: 10em auto;
+            
+            display: flex;
+            align-items: center;
+            .img-i {
+            align-items: center;
+            order: 3;
+            }
+
+            h3 {
+                margin: 2em;
+                margin-top: -.2em;
+                padding: 0;            
+                font-size: 200%;
+                text-align: left;
+            }
+            .btn  {
+                margin-top: -1.5em;
+                margin-left: 4em;
+            }
+        }    
+    }
+    
+    #img-par2 {
+        width: 90%;
+        margin: 3em auto;
+        .img-c {
+        margin: 10em auto;
+            
+            display: flex;
+            align-items: center;
+
+            h3 {
+                margin: 2em;
+                margin-top: -.2em;
+                padding: 0;            
+                font-size: 200%;
+                text-align: left;
+            }
+            .btn  {
+                margin-top: -1.5em;
+                margin-left: 4em;
+            }
+        }    
+    }
+    
+    #paf-btn {
+        margin-top: 10em;
+    
+
+        h2 {
+            font-size: 2.5em;
+            padding: 2em 0;
+            text-align: center;
+            width: 65%;
+            margin: 5em auto -1em auto;
+        }
+        button {
+            font-size: 1.5em;
+        }
+    }
+    
+    #images {
+        width: 90%;
+        margin: 10em auto 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        .file1 {
+            grid-column: 1/2;
+        }
+        
+        .file2 {
+            grid-column: 2/3;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin: 2em 2em 0 2em;
+            text-align: center;
+            grid-column: 1/2;
+        }
+    
+        .texts {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+    }
+    
+    #social {
+        margin-top: 10em;
+
+    }
+    #paf-btn {
+        margin: -7em 0 0 0;
+    }
+    
+    .izq-footer {
+        margin-top: 7em;
+        display: flex;
+        flex-direction: row;
+    
+        .izq_footer1 {
+            margin-left: 3em;
+        }
+    
+        .izq_footer2 {
+            margin-left: 7em;
+        }
+    }
+    #der-footer {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        .newsletter {
+            position: absolute;
+            right: 15em;
+            bottom: 1.5em;
+        }
+        .socials {
+            position: absolute;
+    .insta {
+        width: 32px;
+        padding: 1em;
+        filter: invert(1);
+    }
+
+    .twitter {
+        width: 32px;
+        padding: 1em;
+        filter: invert(1);
+    }
+
+    .linkedin {
+        width: 32px;
+        padding: 1em;
+        filter: invert(1);
+    }
+        }
+    }
+    
+    .copy {
+        margin: 2em;
+    }
+}
+
