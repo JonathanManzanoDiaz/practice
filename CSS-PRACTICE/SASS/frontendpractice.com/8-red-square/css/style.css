@@ -325,4 +325,24 @@ footer .proj {
     font-size: 800%;
   }
 }
+
+.fadeup {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.in-view {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
 /*# sourceMappingURL=style.css.map */
