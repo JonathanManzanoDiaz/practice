@@ -1175,7 +1175,7 @@ footer .global {
     grid-row: 1/2;
     height: 50px;
     position: absolute;
-    top: 200px;
+    top: 220px;
   }
   #manage {
     position: relative;
@@ -1266,6 +1266,9 @@ footer .global {
     display: -ms-flexbox;
     display: flex;
     margin: 1rem;
+  }
+  main {
+    margin: 0 auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

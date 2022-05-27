@@ -924,7 +924,7 @@ header {
             grid-row: 1/2;
             height: 50px;
             position: absolute;
-            top: 200px;
+            top: 220px;
         }
     }
 
@@ -996,5 +996,8 @@ header {
             display: flex;
             margin: 1rem;
         }
+    }
+    main {
+        margin: 0 auto;
     }
 }
