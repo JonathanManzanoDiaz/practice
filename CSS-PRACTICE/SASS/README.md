@@ -22,7 +22,7 @@ PRACTICAS de SASS Jonathan Manzano twitter: @jmanzdi
 
 - [RED SQUARE](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/8-red-square)
 
-- [ECWID <a href="https://youtu.be/Pvg_UVKnOF0">YT Video</a>](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/9-ecwid)
+- [ECWID -- <a href="https://youtu.be/Pvg_UVKnOF0">YT Video</a>](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/9-ecwid)
 
 
 
