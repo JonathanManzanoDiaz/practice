@@ -1177,16 +1177,6 @@ footer .global {
     position: absolute;
     top: 220px;
   }
-  #manage {
-    position: relative;
-  }
-  #manage .learn {
-    position: absolute;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
-    top: 200px;
-  }
   #grow {
     position: relative;
   }
