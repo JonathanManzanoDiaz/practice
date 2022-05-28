@@ -1,0 +1,220 @@
+
+// NAVIGATION START
+
+.navbar {
+    display: none
+}
+//NAVIGATION DESKTOP
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;    
+    img {
+        display: flex;
+        width: 16px;
+        filter: invert(1)
+    }
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ffd;
+    padding: 16px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: var(--color_2);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+//NAVIGATION DESKTOP
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 0 10px;
+    border-radius: 6px;
+    width: 85%;
+    align-items: center;
+    color: var(--color_2);
+    background-color: var(--color_1);
+    position: fixed;
+    top: -1px;
+    z-index: 999;
+
+    ul {
+        list-style-type: none;
+    }
+
+    .workflow {
+        margin-top: -10px;
+        margin-left: 15px;
+        padding: 1rem;
+        font-size: 19px;
+
+        a {
+            margin-left: -40px;
+            font-size: 14px;
+        }
+    }
+    .logo {
+        margin-top: 6px;
+    }
+}
+
+// NAVIGATION END
+
+
+// NAVIGATION BAG RIGHT START
+
+.nothing {
+    height: 10%;
+
+    margin-top: 3.5rem;
+    text-align: center;
+    padding: 1rem;
+
+    h5 {
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: var(--color_1);
+    }
+
+    p {
+        padding: .3rem;
+        font-size: .9rem;
+    }
+}
+
+.better {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    height: 35vh;
+    padding: 0rem .9rem;
+    gap: 10px;
+    margin-top: 1.8rem;
+
+    img {
+        width: 90px;
+    }
+
+    h6 {
+        grid-row: 1/2;
+        grid-column: 2/3;
+
+        color: black;
+        font-size: 14px;
+    }
+
+    p {
+        margin-top: 40px;
+        grid-row: 1/2;
+        color: black;
+        padding: .5rem .7rem 0 0;
+
+        font-size: 10px;
+        grid-column: 2/3;
+    }
+}
+
+.text-center {
+    text-align: center;
+
+    p {
+        font-size: 14px;
+        color: grey;
+        text-transform: uppercase;
+    }
+
+    .icon-pay {
+        margin-top: 5px;
+    }
+}
+
+.subtotal {
+    margin-top: .2rem;
+    background-color: var(--color_1);
+    height: 25vh;
+    text-align: center;
+
+    .sbt {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        color: white;
+        font-size: 1.7rem;
+    }
+
+    button {
+        margin: 1rem auto;
+        height: 45px;
+
+        background-color: var(--color_2);
+        width: 80%;
+        border-radius: 25px;
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+}
+
+// NAVIGATION BAG RIGHT END

@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap');
+
+@import 'sidebar-right';
+@import 'sidebar-left';
+@import 'colors';
+@import 'variables';
+@import 'navigation';
+@import 'mqueries';
+
+// BODY PAGE
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    @include reset;
+    font-family: 'Prompt', sans-serif;
+    max-width: 1444px;
+    margin: 0 auto
+}
+
+// BODY PAGE
+
+// HERO
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/MONO_FCP_CORE_bd5066b960.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 67vh;
+}
+
+#hero {
+    position: absolute;
+
+    .hero-text {
+        top: 100px;
+        margin: 8rem auto;
+        text-align: center;
+        color: white;
+
+        h1 {
+            margin: 1rem 0;
+            font-size: 2rem;
+            padding: 3rem 3rem 0 3rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            margin-top: 1rem;
+            padding: .7rem 2rem;
+            background-color: var(--color_2);
+            font-size: 1rem;
+            font-weight: bold;
+            color: black;
+            border-radius: 20px
+        }
+
+        svg {
+            margin-top: .5rem;
+            font-size: 2rem;
+        }
+    }
+}
+
+// HERO
+
+
+// ORDERS 
+#orders {
+
+    text-align: center;
+
+
+}
+
+// OTHER PRODUCTS START
+
+#other-p {
+
+    text-align: center;
+
+}
+
+// OTHER PRODUCTS END
+
+
+// PRODUCT START
+
+.product {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    img {
+        margin-top: 2rem;
+        width: 99%;
+    }
+
+    p {
+        font-size: .9rem;
+        text-align: left;
+        margin-left: 3px;
+    }
+
+    .mini {
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+        margin-left: 3px;
+        font-size: 1.2rem;
+            text-transform: uppercase;
+
+        }
+
+        span {
+            font-size: .95rem;
+            color: rgb(197, 168, 6);
+            font-weight: bold;
+        }
+
+        del {
+            color: grey;
+            font-weight: 300;
+        }
+    }
+}
+
+.pre-ord {
+    position: absolute;
+    top: 50px;
+    font-size: .8rem;
+    right: 2px;
+    width: 35%;
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: var(--color_2);
+    overflow: hidden;
+    font-weight: bold;
+    p {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+// PRODUCT END
+
+// ORDERS 
+
+// CREATE START
+
+#create {
+    background-image: url(/img/shop-banner-module.webp);
+    background-position: center center;
+    height: 320px;
+    width:85%;
+    margin: 2rem auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        width: 80%;
+        margin: 0 auto;
+        color: var(--color_1);
+        padding-top: 3rem;
+    }
+
+    p {
+        text-align: center;
+        color: var(--color_1);
+        font-size: 1.2rem;
+    }
+
+}
+
+main {
+    padding-bottom: 4rem;
+}
+
+// CREATE END
+
+// FOOTER START
+footer {
+    width: 85%;
+    background-color: var(--color_1);
+    margin: 0 auto;
+    color: var(--color_2);
+    padding: 2rem 1.5rem;
+
+    input {
+        background-color: var(--color_1);
+        border: 1px solid white;
+        padding: .5rem .3rem;
+        border-radius: 4px;
+    }
+
+    input::placeholder {
+        color: white;
+    }
+
+    button {
+        background-color: var(--color_2);
+        font-size: .8rem;
+        padding: .5rem 1rem;
+        border: 0;
+        border-radius: 20px;
+        margin-left: 5px;
+    }
+
+    .social-b {
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 34px;
+            margin-top: 1rem;
+            margin-right: 2rem;
+            fill: white;
+        }
+    }
+
+    address {
+        font-size: .9rem;
+    }
+
+    .links {
+        display: flex;
+        margin-top: 6rem;
+        justify-content: space-around;
+
+        .quick-lines {
+            display: flex;
+            flex-direction: column;
+
+            h6 {
+                font-size: .9rem;
+                text-transform: uppercase;
+            }
+
+            a {
+                text-align: left;
+                padding: .2rem 0;
+                text-align: center;
+                color: white;
+
+            }
+        }
+
+        .help {
+            display: flex;
+            margin: 0 1rem;
+            flex-direction: column;
+
+            h6 {
+                font-size: .9rem;
+                text-transform: uppercase;
+            }
+
+            a {
+                text-align: center;
+
+                padding: .2rem 0;
+                color: white;
+
+            }
+        }
+
+        .information {
+            display: flex;
+            flex-direction: column;
+
+            h6 {
+                font-size: .9rem;
+                text-transform: uppercase;
+            }
+
+            a {
+                padding: .2rem 0;
+                color: white;
+
+            }
+        }
+
+        .copy {
+            margin-top: 2rem;
+            grid-column: span 2;
+        }
+    }
+}
+
+
+// FOOTER END
