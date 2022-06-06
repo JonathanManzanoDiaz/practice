@@ -2,8 +2,10 @@
 
 # PRACTICAS
 
-Repositorio de PRACTICAS de Jonathan Manzano twitter: @jmanzdi
+Repository of PRACTICE by Jonathan Manzano twitter: @jmanzdi
 
 ## Proyectos
 
-- [PROYECTOS CSS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE)
+- [PROJECTS CSS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE)
+
+- [PROJECTS JAVASCRIPT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE)

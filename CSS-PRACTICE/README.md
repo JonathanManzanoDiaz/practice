@@ -1,14 +1,14 @@
 
 
-# PRACTICAS
+# PRACTICES
 
-PRACTICAS CSS de Jonathan Manzano twitter: @jmanzdi
+PRACTICES CSS by Jonathan Manzano twitter: @jmanzdi
 
-## PROYECTO SASS
+## SASS PROJECTS
 
 - [SASS PROJECTS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS)
 
-## Proyectos
+## PROJECTS
 
 - [CSS BATTLE(https://cssbattle.dev)](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/css-battle)
 
