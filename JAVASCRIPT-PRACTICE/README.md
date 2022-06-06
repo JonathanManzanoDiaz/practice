@@ -1,13 +1,12 @@
 
 
-# PRACTICES
+# PROJECTS
 
-PRACTICES of JS by Jonathan Manzano twitter: @jmanzdi
+PRACTICE of JS by Jonathan Manzano twitter: @jmanzdi
 
 ## JS PROJECTS
 
-- [1 - COLOR FLIPPER](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/color-flipper)
+- [1 - Color Flipper](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/1-ableton)
 
-
-
+- [2 - Counter](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE/SASS/1-ableton)
 
