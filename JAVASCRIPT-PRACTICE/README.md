@@ -2,7 +2,7 @@
 
 # PROJECTS
 
-PRACTICE of JS by Jonathan Manzano twitter: @jmanzdi
+PRACTICE of JS by Jonathan Manzano twitter: [@jmanzdi](https://www.twitter.com/jmanzdi)
 
 ## JS PROJECTS
 
