@@ -8,4 +8,4 @@ Repository of PRACTICE by Jonathan Manzano twitter: @jmanzdi
 
 - [PROJECTS CSS](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE)
 
-- [PROJECTS JAVASCRIPT](https://jonathanmanzanodiaz.github.io/practice/CSS-PRACTICE)
+- [PROJECTS JAVASCRIPT](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE)
