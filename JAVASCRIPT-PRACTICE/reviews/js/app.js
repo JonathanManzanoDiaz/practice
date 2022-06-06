@@ -5,35 +5,35 @@ const reviews = [
         id: 1,
         name: "David Gomes",
         job: "MODEL",
-        img: "/img/1.jpg",
+        img: "https://images.pexels.com/photos/4048797/pexels-photo-4048797.jpeg?cs=srgb&dl=pexels-david-gomes-4048797.jpg&fm=jpg",
     },
     
     {
         id: 2,
         name: "David Gomes",
         job: "MODEL",
-        img: "/img/2.jpg"
+        img: "https://images.pexels.com/photos/4048800/pexels-photo-4048800.jpeg?cs=srgb&dl=pexels-david-gomes-4048800.jpg&fm=jpg"
     },
 
     {
         id: 3,
         name: "J. Cruz",
         job: "MODEL",
-        img: "/img/3.jpg"
+        img: "https://images.pexels.com/photos/2874118/pexels-photo-2874118.jpeg?cs=srgb&dl=pexels-j-cruz-2874118.jpg&fm=jpg"
     },
 
     {
         id: 4,
         name: "Emre Keshavarz",
         job: "MODEL",
-        img: "/img/4.jpg"
+        img: "https://images.pexels.com/photos/3919865/pexels-photo-3919865.jpeg?cs=srgb&dl=pexels-emre-keshavarz-3919865.jpg&fm=jpg"
     },
 
     {
         id: 5,
         name: "Rameez Kottol",
         job: "MODEL",
-        img: "/img/5.jpg"
+        img: "https://images.pexels.com/photos/4068664/pexels-photo-4068664.jpeg?cs=srgb&dl=pexels-rameez-kottol-4068664.jpg&fm=jpg"
     }
 
 ]
