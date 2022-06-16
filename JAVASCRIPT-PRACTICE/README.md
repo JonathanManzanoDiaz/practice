@@ -12,7 +12,7 @@ PRACTICE of JS by Jonathan Manzano twitter: [@jdiaz_dev](https://www.twitter.com
 
 - [3 - Reviews](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/reviews)
 
-- [4 - CLOCK](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/clock)
+- [4 - Clock](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/clock)
 
 - [5 - Guess Number](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/guess-number)
 
