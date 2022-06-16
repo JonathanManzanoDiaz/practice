@@ -2,7 +2,7 @@
 
 # PROJECTS
 
-PRACTICE of JS by Jonathan Manzano twitter: [@jmanzdi](https://www.twitter.com/jmanzdi)
+PRACTICE of JS by Jonathan Manzano twitter: [@jdiaz_dev](https://www.twitter.com/jdiaz_dev)
 
 ## JS PROJECTS
 
@@ -14,6 +14,7 @@ PRACTICE of JS by Jonathan Manzano twitter: [@jmanzdi](https://www.twitter.com/j
 
 - [4 - CLOCK](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/clock)
 
+- [5 - Guess Number](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/guess-number)
 
 
 
