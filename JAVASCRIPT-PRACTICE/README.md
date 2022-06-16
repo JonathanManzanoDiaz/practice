@@ -16,5 +16,6 @@ PRACTICE of JS by Jonathan Manzano twitter: [@jdiaz_dev](https://www.twitter.com
 
 - [5 - Guess Number](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/guess-number)
 
+- [6 - Modal Window](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/modal-window)
 
 
