@@ -3,92 +3,80 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-width: 300px;
 }
 
-.nav-menu {
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 40px;
   height: 80px;
-  background-color: #eeeeee;
+  -webkit-box-shadow: 0 1px 1px grey;
+          box-shadow: 0 1px 1px grey;
   line-height: 80px;
-  -webkit-box-shadow: 0 2px 2px grey;
-          box-shadow: 0 2px 2px grey;
+  font-size: 40px;
 }
 
-.nav-menu a {
+nav a {
   text-decoration: none;
-  color: #f15fff;
+  color: #5454ee;
 }
 
-.nav-menu ul {
+nav .logo a {
+  color: #56bfe9;
+}
+
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0;
   margin: 0;
-  text-indent: 40px;
-  list-style-type: none;
+  padding: 0;
+  text-indent: 20px;
+  list-style: none;
 }
 
-.nav-menu ul a:hover {
-  -webkit-text-decoration: underline black 1px;
-          text-decoration: underline black 1px;
-}
-
-#main {
-  height: 70vh;
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 70vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-#main .text-b {
-  font-size: 25px;
-  background-color: black;
-  color: white;
-  padding: 2.5rem 5rem;
-  border-radius: 3rem;
+main #back {
   text-align: center;
-}
-
-#main .text-b h1 {
-  letter-spacing: 4px;
-}
-
-#main .text-b #btn {
-  font-size: 20px;
-  padding: .5rem 2rem;
-  -webkit-box-shadow: 0px 1px 2px 1px blue;
-          box-shadow: 0px 1px 2px 1px blue;
-  border-radius: 10px;
-  border: 1px solid black;
-  font-weight: bold;
-  background-color: white;
-  color: #f15eee;
-}
-
-#main .text-b #btn:hover {
-  background-color: #f15eee;
-  color: black;
-  -webkit-transition: .1s ease-in;
-  transition: .1s ease-in;
-  cursor: pointer;
-}
-
-#main .text-b #btn:active {
+  padding: 1rem 5rem;
+  letter-spacing: 3px;
+  border-radius: 20px;
   background-color: black;
+}
+
+main #back h1 {
+  font-size: 50px;
   color: white;
+}
+
+main #back button {
+  border: 3px solid blue;
+  padding: .5rem 2rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+}
+
+main #back button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,75 +1,67 @@
-@import 'variables';
-
 body {
-    @include reset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.nav-menu {
+nav {
     display: flex;
     justify-content: space-evenly;
-    font-size: 40px;
     height: 80px;
-    background-color: #eeeeee;
+    box-shadow: 0 1px 1px grey;
     line-height: 80px;
-    box-shadow: 0 2px 2px grey;
+    font-size: 40px;
 
     a {
         text-decoration: none;
-        color: #f15fff;
+        color: rgb(84, 84, 238)
+    }
+
+    .logo a {
+        color: rgb(86, 191, 233);
     }
 
     ul {
         display: flex;
-        padding: 0;
         margin: 0;
-        text-indent: 40px;
-        list-style-type: none;
-
-        a:hover {
-            text-decoration: underline black 1px;
-        }
+        padding: 0;
+        text-indent: 20px;
+        list-style: none;
     }
 }
 
-#main {
-    height: 70vh;
+main {
     display: flex;
     justify-content: center;
+    height: 70vh;
     align-items: center;
 
-    .text-b {
-        font-size: 25px;
-        background-color: black;
-        color: white;
-        padding: 2.5rem 5rem;
-        border-radius: 3rem;
+    #back {
         text-align: center;
+        padding: 1rem 5rem;
+        letter-spacing: 3px;
+        border-radius: 20px;
+        background-color: black;
 
         h1 {
-            letter-spacing: 4px;
-        }
-
-        #btn {
-            font-size: 20px;
-            padding: .5rem 2rem;
-            box-shadow: 0px 1px 2px 1px blue;
-            border-radius: 10px;
-            border: 1px solid black;
-            font-weight: bold;
-            background-color: white;
-            color: #f15eee;
-        }
-
-        #btn:hover {
-            background-color: #f15eee;
-            color: black;
-            transition: .1s ease-in;
-            cursor: pointer;
-        }
-
-        #btn:active {
-            background-color: black;
+            font-size: 50px;
             color: white;
         }
+
+        button {
+            border: 3px solid blue;
+            padding: .5rem 2rem;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: transparent;
+
+            color: white;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            transition: 0.2s;
+        }
     }
+
 }

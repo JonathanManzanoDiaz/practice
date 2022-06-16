@@ -1,15 +1,15 @@
 const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-let boton = document.querySelector('.boton')
-let color = document.querySelector('.color')
+let boton = document.getElementById('button')
+let color = document.getElementById('color')
 
-boton.addEventListener('click', function() {
-    let hexColor = "#";
-    for (let i = 0; i<6; i++) {
-        hexColor += hex[getRandomNumber()]
+boton.addEventListener('click', function () {
+    let hexC = "#";
+    for (let i = 0; i < 6; i++) {
+        hexC += hex[getRandomNumber()]
     }
-    color.textContent = hexColor;
-    document.body.style.backgroundColor = hexColor;
-})         
+    color.textContent = hexC;
+    document.body.style.backgroundColor = hexC;
+})
 
 
 function getRandomNumber() {
