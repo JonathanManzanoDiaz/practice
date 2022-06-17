@@ -18,4 +18,7 @@ PRACTICE of JS by Jonathan Manzano twitter: [@jdiaz_dev](https://www.twitter.com
 
 - [6 - Modal Window](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/modal-window)
 
+- [7 - Pig Game](https://jonathanmanzanodiaz.github.io/practice/JAVASCRIPT-PRACTICE/pig-game)
+
+
 

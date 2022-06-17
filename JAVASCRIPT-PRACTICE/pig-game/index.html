@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Roll Dice Game</title>
+
+</head>
+
+<body>
+
+    <main id="main">
+        <h2 class="win">HELLO</h2>
+
+        <h1 class="reset">0</h1>
+        <section id="cards">
+            <div class="left active">
+                <h2 class="player_one">Player 1</h2>
+                <span class="score1">0</span>
+                <div class="current">
+                    <p class="c_text">CURRENT</p>
+                    <span class="c_score1">0</span>
+                </div>
+            </div>
+
+            <div class="right inactive">
+                <h2 class="player_two">Player 2</h2>
+                <span class="score2">0</span>
+                <div class="current">
+                    <p class="c_text">CURRENT</p>
+                    <span class="c_score2">0</span>
+                </div>
+            </div>
+        </section>
+        <section id="middle">
+            <img class="dice" src="images/dice-1.png" alt="">
+            <button class="new">🔁 NEW GAME</button>
+            <button class="btn_roll">🎲 ROLL DICE</button>
+            <button class="btn_hold">✋ HOLD</button>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards {
+
+    margin: 0 auto;
+    width: 16.5rem;
+}
+
+.left {
+    margin-top: -1rem;
+    border-radius: 20px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 160%;
+
+    h2 {
+        margin-top: -1rem;
+    }
+}
+
+.active {
+    background-color: #dfdcb4;
+    color: black;
+
+}
+
+.inactive {
+    background-color: grey;
+    color: black;
+
+}
+
+.right {
+    margin-top: 1rem;
+    border-radius: 20px;
+    color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 160%;
+
+}
+
+#middle {
+
+    .new {
+        position: absolute;
+        top: 10px;
+        left: calc(50% - 85px);
+        font-size: 20px;
+        padding: 0.2rem 1rem;
+        border-radius: 20px;
+        border: 0;
+        background-color: black;
+        color: white;
+        line-height: 30px;
+    }
+
+    .new:active {
+        transform: scale(1.1);
+        background-color: white;
+        color: black;
+        transition: 0.3s;
+    }
+
+    .btn_roll {
+
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        font-size: 20px;
+        padding: 0.2rem 1rem;
+        border-radius: 20px;
+        border: 0;
+        background-color: black;
+        color: white;
+        line-height: 30px;
+    }
+
+    .btn_roll:active {
+        transform: scale(1.05);
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+    }
+
+    .btn_hold {
+
+        position: absolute;
+        bottom: 15px;
+        right: 10px;
+        font-size: 20px;
+        padding: 0.2rem 1rem;
+        border-radius: 20px;
+        border: 0;
+        background-color: black;
+        color: white;
+        line-height: 30px;
+    }
+
+    .btn_hold:active {
+        transform: scale(1.05);
+        background-color: white;
+        color: black;
+        transition: 0.2s;
+    }
+
+    .dice {
+        width: 70px;
+        position: absolute;
+        top: calc(50% - 45px);
+        left: calc(50% - 35px);
+        border-radius: 10px;
+        border: 1px solid black;
+        box-shadow: 0 0 8px black;
+
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    color: white;
+    display: none;
+    padding: 2rem 0;
+}
+
+.win {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
